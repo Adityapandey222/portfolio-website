@@ -14,8 +14,8 @@ Clone the repository and use your preferred IDE.
 Requirements: Node.js & npm ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
 ```sh
-git clone <YOUR_GIT_URL>
-cd <YOUR_PROJECT_NAME>
+git https://github.com/Adityapandey222/portfolio-website
+cd portfolio-website
 npm i
 npm run dev
 ```
