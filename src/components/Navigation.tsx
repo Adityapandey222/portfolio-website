@@ -5,7 +5,7 @@ const Navigation = () => {
   const navItems = [
     { label: "Home", href: "#home" },
     { label: "Skills", href: "#skills" },
-    { label: "Experience", href: "#experience" },
+    { label: "Projects", href: "#projects" },
     { label: "Connect", href: "#connect" },
   ];
 
@@ -15,9 +15,8 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center">
-            <h2 className="text-2xl font-bold gradient-text">noah.</h2>
+            <h2 className="text-2xl font-bold gradient-text">aditya.</h2>
           </div>
-          
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
@@ -33,7 +32,6 @@ const Navigation = () => {
               </button>
             ))}
           </div>
-          
           {/* Download Resume Button */}
           <Button 
             variant="outline" 
