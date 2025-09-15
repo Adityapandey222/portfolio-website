@@ -3,19 +3,19 @@ const education = [
     degree: "B.Tech in Information Technology",
     institution: "",
     period: "Dec 2022 - Aug 2026",
-    gpa: "78.2%"
+    cgpa: "65%"
   },
   {
     degree: "Senior Secondary (XII) – Science",
     institution: "",
     period: "Apr 2020 - Mar 2021",
-    gpa: "79.4%"
+    cgpa: "78.2%"
   },
   {
     degree: "Secondary (X)",
     institution: "",
     period: "May 2018 - Mar 2019",
-    gpa: ""
+    cgpa: "79.4%"
   }
 ];
 
