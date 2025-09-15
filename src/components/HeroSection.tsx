@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Download } from "lucide-react";
 import heroBackground from "@/assets/hero-background.png";
+import FloatingElements from "@/components/FloatingElements";
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -73,12 +74,8 @@ const HeroSection = () => {
         </div>
       </div>
       
-      {/* Floating Elements */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary rounded-full animate-float opacity-60" />
-        <div className="absolute top-3/4 left-1/3 w-1 h-1 bg-accent rounded-full animate-float opacity-40" style={{ animationDelay: '2s' }} />
-        <div className="absolute top-1/3 right-1/4 w-3 h-3 bg-primary/30 rounded-full animate-float" style={{ animationDelay: '4s' }} />
-      </div>
+      {/* Floating 3D Elements */}
+      <FloatingElements />
     </section>
   );
 };
